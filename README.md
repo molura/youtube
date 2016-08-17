@@ -1,6 +1,20 @@
 # Laravel 5 - YouTube Uploader
 
-If you've ever needed to upload videos to a single YouTube channel from your Laravel 5 application, then hopefully this is the package for you.
+This is a W.I.P fork. Use the original repo at https://github.com/JoeDawson/youtube for live apps. 
+
+If you've ever needed to upload videos to a single YouTube channel from your Laravel 5.x application, then hopefully this is the package for you.
+
+## PERSONAL TODOS (Ash)
+
+ -  error handling for specific service related issues and smart handling. 
+ -  validation methods for api methods so we can throw errors before calling the remote server. 
+ 	- **setTags** needs to be less than 500 chars with spaces counted towards the 500 char limit. 
+ 	- **setThumbnail** is only available for verified accounts. It will fail on new accounts with a service error. 
+ -  Channel Summary wrapper. 
+ -  Convert Google_Client to a trait. 
+ -  Fixed input types for all methods. 
+ -  Implement exponetial backoff strategy for Chuck size. 
+
 
 ## Installation
 
