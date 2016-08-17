@@ -1,6 +1,6 @@
 {
-    "name": "dawson/youtube",
-    "description": "Upload a video to YouTube with Laravel 5.",
+    "name": "molura/youtube",
+    "description": "Upload a video to YouTube with Laravel 5.2",
     "license": "MIT",
     "authors": [
         {
@@ -9,9 +9,9 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.0.0",
         "illuminate/support": ">=5.0.0",
-        "google/apiclient": "1.1.*"
+        "google/apiclient": "^2.0"
     },
     "autoload": {
         "psr-0": {
