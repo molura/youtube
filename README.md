@@ -14,6 +14,9 @@ If you've ever needed to upload videos to a single YouTube channel from your Lar
  -  Convert Google_Client to a trait. 
  -  Fixed input types for all methods. 
  -  Implement exponetial backoff strategy for Chuck size. 
+ -  UserID field needed for access token table.
+ -  Add the query parameter prompt=consent if the access token does not contain "refresh_token"
+ -  Cron job to purge old tokens and refresh expired. 
 
 
 ## Installation
